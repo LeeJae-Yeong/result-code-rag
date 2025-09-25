@@ -1,0 +1,10 @@
+streamlit
+sentence-transformers
+rank-bm25
+numpy
+pandas
+scikit-learn
+PyPDF2
+pdfplumber
+pymupdf
+

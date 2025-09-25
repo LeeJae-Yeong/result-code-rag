@@ -1,0 +1,2687 @@
+[
+  {
+    "code": "-2",
+    "description": "전달 대기중",
+    "category": "일반"
+  },
+  {
+    "code": "0",
+    "description": "전송 성공",
+    "category": "일반"
+  },
+  {
+    "code": "1",
+    "description": "시스템 장애",
+    "category": "일반"
+  },
+  {
+    "code": "2",
+    "description": "인증 실패",
+    "category": "일반"
+  },
+  {
+    "code": "3",
+    "description": "메시지 형식 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4",
+    "description": "BIND 안됨",
+    "category": "일반"
+  },
+  {
+    "code": "5",
+    "description": "인증티켓 유효성 오류",
+    "category": "일반"
+  },
+  {
+    "code": "6",
+    "description": "SP(가입자) 존재하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "7",
+    "description": "SP(가입자) 패스워드 틀림",
+    "category": "일반"
+  },
+  {
+    "code": "8",
+    "description": "SP(가입자) 일시정지",
+    "category": "일반"
+  },
+  {
+    "code": "9",
+    "description": "SP(가입자) 해지",
+    "category": "일반"
+  },
+  {
+    "code": "10",
+    "description": "End-User(사용자) 존재하지 않음, 해지, 정지",
+    "category": "일반"
+  },
+  {
+    "code": "11",
+    "description": "EU(사용자) 이미 연결 되어있음",
+    "category": "일반"
+  },
+  {
+    "code": "12",
+    "description": "지원하지 않는 메시지 버전",
+    "category": "일반"
+  },
+  {
+    "code": "13",
+    "description": "서버 처리 용량 초과",
+    "category": "일반"
+  },
+  {
+    "code": "14",
+    "description": "서버와 소켓 연결되지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "15",
+    "description": "일시적인 오류",
+    "category": "일반"
+  },
+  {
+    "code": "16",
+    "description": "시간종료",
+    "category": "일반"
+  },
+  {
+    "code": "17",
+    "description": "권한 없음(접근가능IP 외적 접속)",
+    "category": "일반"
+  },
+  {
+    "code": "18",
+    "description": "다른 네트워크 세션으로 중복 접속",
+    "category": "일반"
+  },
+  {
+    "code": "19",
+    "description": "번호가 할당되어 있지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "20",
+    "description": "이미 존재함",
+    "category": "일반"
+  },
+  {
+    "code": "21",
+    "description": "파일 읽기 불가",
+    "category": "일반"
+  },
+  {
+    "code": "22",
+    "description": "변환 실패",
+    "category": "일반"
+  },
+  {
+    "code": "23",
+    "description": "인자값이 올바르지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "24",
+    "description": "초기화 되지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "25",
+    "description": "메모리 버퍼가 작음",
+    "category": "일반"
+  },
+  {
+    "code": "26",
+    "description": "VCID를 찾을 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "27",
+    "description": "가입되지 않은 상품 발송",
+    "category": "일반"
+  },
+  {
+    "code": "28",
+    "description": "초당 전송 개수 초과",
+    "category": "일반"
+  },
+  {
+    "code": "29",
+    "description": "인증티켓 만료",
+    "category": "일반"
+  },
+  {
+    "code": "30",
+    "description": "데이터 복호화 에러",
+    "category": "일반"
+  },
+  {
+    "code": "31",
+    "description": "데이터 암호화 에러",
+    "category": "일반"
+  },
+  {
+    "code": "32",
+    "description": "변환실패",
+    "category": "일반"
+  },
+  {
+    "code": "33",
+    "description": "월 발송제한 개수 초과",
+    "category": "일반"
+  },
+  {
+    "code": "34",
+    "description": "메시지 길이 오류",
+    "category": "일반"
+  },
+  {
+    "code": "35",
+    "description": "전화번호 오류",
+    "category": "일반"
+  },
+  {
+    "code": "36",
+    "description": "아이디가 존재하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "37",
+    "description": "가입상품 정보 변경됨",
+    "category": "일반"
+  },
+  {
+    "code": "38",
+    "description": "CustomMessageID가 중복됨",
+    "category": "일반"
+  },
+  {
+    "code": "39",
+    "description": "이통사 시스템 장애",
+    "category": "일반"
+  },
+  {
+    "code": "40",
+    "description": "잘못된 MSG SUB TYPE (MMS)",
+    "category": "일반"
+  },
+  {
+    "code": "41",
+    "description": "MMS content 생성 실패",
+    "category": "일반"
+  },
+  {
+    "code": "42",
+    "description": "MMS Response code parsing 에러",
+    "category": "일반"
+  },
+  {
+    "code": "60",
+    "description": "0502 조회 통신실패",
+    "category": "일반"
+  },
+  {
+    "code": "61",
+    "description": "0502 조회 결과 0502로 받음",
+    "category": "일반"
+  },
+  {
+    "code": "50",
+    "description": "스토리지 에러",
+    "category": "일반"
+  },
+  {
+    "code": "51",
+    "description": "스토리지 파일 오류",
+    "category": "일반"
+  },
+  {
+    "code": "52",
+    "description": "스토리지 서비스 오류",
+    "category": "일반"
+  },
+  {
+    "code": "53",
+    "description": "스토리지 접근 실패",
+    "category": "일반"
+  },
+  {
+    "code": "54",
+    "description": "스토리지 처리 용량 초과",
+    "category": "일반"
+  },
+  {
+    "code": "55",
+    "description": "스토리지에 파일이 존재하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "56",
+    "description": "스토리지내 파일 할당 용량 초과",
+    "category": "일반"
+  },
+  {
+    "code": "57",
+    "description": "스토리지에 동일한 파일이 이미 존재함",
+    "category": "일반"
+  },
+  {
+    "code": "90",
+    "description": "동보갯수초과 (Agent 내부)",
+    "category": "일반"
+  },
+  {
+    "code": "91",
+    "description": "데이터 형식 오류 (Agent 내부)",
+    "category": "일반"
+  },
+  {
+    "code": "92",
+    "description": "첨부파일 오류 (Agent 내부)",
+    "category": "일반"
+  },
+  {
+    "code": "93",
+    "description": "파일 업로드 실패 (Agent 내부)",
+    "category": "일반"
+  },
+  {
+    "code": "94",
+    "description": "Convert 타임아웃 (Agent 내부)",
+    "category": "일반"
+  },
+  {
+    "code": "95",
+    "description": "첨부파일 제한용량 초과 (Agent 내부)",
+    "category": "일반"
+  },
+  {
+    "code": "96",
+    "description": "이미지 다운로드 실패 (Agent 내부)",
+    "category": "일반"
+  },
+  {
+    "code": "99",
+    "description": "발송 전 오류",
+    "category": "일반"
+  },
+  {
+    "code": "100",
+    "description": "동보 처리 개수 초과",
+    "category": "일반"
+  },
+  {
+    "code": "101",
+    "description": "메시지 내용 스팸",
+    "category": "일반"
+  },
+  {
+    "code": "102",
+    "description": "발신자 스팸",
+    "category": "일반"
+  },
+  {
+    "code": "103",
+    "description": "착신자 스팸",
+    "category": "일반"
+  },
+  {
+    "code": "104",
+    "description": "회신번호 스팸",
+    "category": "일반"
+  },
+  {
+    "code": "105",
+    "description": "메시지 데이터 오류",
+    "category": "일반"
+  },
+  {
+    "code": "107",
+    "description": "동일 착번 금지",
+    "category": "일반"
+  },
+  {
+    "code": "106",
+    "description": "메시지 길이 초과",
+    "category": "일반"
+  },
+  {
+    "code": "108",
+    "description": "동일 메시지 제한 초과",
+    "category": "일반"
+  },
+  {
+    "code": "109",
+    "description": "callback url 스팸",
+    "category": "일반"
+  },
+  {
+    "code": "110",
+    "description": "메시지 재 전송 실패",
+    "category": "일반"
+  },
+  {
+    "code": "111",
+    "description": "동일 착번 제한",
+    "category": "일반"
+  },
+  {
+    "code": "112",
+    "description": "레포트 수신 시간 만료",
+    "category": "일반"
+  },
+  {
+    "code": "113",
+    "description": "중복메시지 발송 금지기능",
+    "category": "일반"
+  },
+  {
+    "code": "114",
+    "description": "번호도용/변작방지 차단, 피싱차단",
+    "category": "일반"
+  },
+  {
+    "code": "115",
+    "description": "미등록 회신번호 차단",
+    "category": "일반"
+  },
+  {
+    "code": "116",
+    "description": "발신번호 세칙 위반 차단",
+    "category": "일반"
+  },
+  {
+    "code": "117",
+    "description": "착신번호 세칙 위반 차단",
+    "category": "일반"
+  },
+  {
+    "code": "199",
+    "description": "문자 발송시 KISACODE가 없음",
+    "category": "일반"
+  },
+  {
+    "code": "200",
+    "description": "통화중",
+    "category": "일반"
+  },
+  {
+    "code": "201",
+    "description": "무응답",
+    "category": "일반"
+  },
+  {
+    "code": "202",
+    "description": "착신 가입자 없음",
+    "category": "일반"
+  },
+  {
+    "code": "203",
+    "description": "비가입자, 결번, 서비스정지",
+    "category": "일반"
+  },
+  {
+    "code": "204",
+    "description": "단말기 전원 꺼짐",
+    "category": "일반"
+  },
+  {
+    "code": "205",
+    "description": "음영지역",
+    "category": "일반"
+  },
+  {
+    "code": "206",
+    "description": "단말기메시지FULL",
+    "category": "일반"
+  },
+  {
+    "code": "207",
+    "description": "UNKNOWN/단말기형식오류/번호이동 후 이통사 DB 미 적용고객",
+    "category": "일반"
+  },
+  {
+    "code": "208",
+    "description": "메시지가 Overflow 되어 받지 못함",
+    "category": "일반"
+  },
+  {
+    "code": "209",
+    "description": "번호이동된가입자",
+    "category": "일반"
+  },
+  {
+    "code": "210",
+    "description": "SMS 착신전환 회수 초과",
+    "category": "일반"
+  },
+  {
+    "code": "211",
+    "description": "기간만료",
+    "category": "일반"
+  },
+  {
+    "code": "212",
+    "description": "SKT 가입자 없음(NPDB 가입자없음(Undeliverable))",
+    "category": "일반"
+  },
+  {
+    "code": "213",
+    "description": "NPDB 오류",
+    "category": "일반"
+  },
+  {
+    "code": "214",
+    "description": "SUB TYPE 오류",
+    "category": "일반"
+  },
+  {
+    "code": "215",
+    "description": "한글 / 영문외의 가입자일 경우",
+    "category": "일반"
+  },
+  {
+    "code": "216",
+    "description": "수신번호가 오류인 경우 자리수 부족 및 초과",
+    "category": "일반"
+  },
+  {
+    "code": "217",
+    "description": "URL sms 가입자 동의 DB에 등록 되어있지 않은 경우이면 과금 됨",
+    "category": "일반"
+  },
+  {
+    "code": "218",
+    "description": "CID가 등록 되어있지 않은 경우",
+    "category": "일반"
+  },
+  {
+    "code": "219",
+    "description": "MsgCode가 등록 되어있지 않은 경우",
+    "category": "일반"
+  },
+  {
+    "code": "220",
+    "description": "MsgSubCode가 등록 되어있지 않은 경우",
+    "category": "일반"
+  },
+  {
+    "code": "221",
+    "description": "Message Sequence Number가 틀린 경우",
+    "category": "일반"
+  },
+  {
+    "code": "222",
+    "description": "잘못된 Date type 인 경우",
+    "category": "일반"
+  },
+  {
+    "code": "223",
+    "description": "시간당 보낼 수 있는 용량을 넘었을 경우",
+    "category": "일반"
+  },
+  {
+    "code": "224",
+    "description": "SM Receiver 내부의 Queue가 차서 더 이상 처리가 불가능 할 때",
+    "category": "일반"
+  },
+  {
+    "code": "225",
+    "description": "ISMC(전송실패)",
+    "category": "일반"
+  },
+  {
+    "code": "226",
+    "description": "CallbackURL 사용자 아님",
+    "category": "일반"
+  },
+  {
+    "code": "227",
+    "description": "착신번호 에러(자리수 에러)",
+    "category": "일반"
+  },
+  {
+    "code": "228",
+    "description": "착신번호 에러(없는 번호)",
+    "category": "일반"
+  },
+  {
+    "code": "229",
+    "description": "수신거부 메시지 없음",
+    "category": "일반"
+  },
+  {
+    "code": "230",
+    "description": "21시 이후 광고",
+    "category": "일반"
+  },
+  {
+    "code": "231",
+    "description": "성인광고, 대출광고 등 기타 제한",
+    "category": "일반"
+  },
+  {
+    "code": "232",
+    "description": "단말기 착신 거부(스팸등)",
+    "category": "일반"
+  },
+  {
+    "code": "233",
+    "description": "결과 수신 대기",
+    "category": "일반"
+  },
+  {
+    "code": "244",
+    "description": "접속시도 DELAY 충분치 않음",
+    "category": "일반"
+  },
+  {
+    "code": "245",
+    "description": "메시지 전송불가(단말기에서 착신 거부)",
+    "category": "일반"
+  },
+  {
+    "code": "246",
+    "description": "URL SMS 미지원 폰으로 메시지 전송불가",
+    "category": "일반"
+  },
+  {
+    "code": "247",
+    "description": "스팸 부가서비스 가입자(스팸 차단)",
+    "category": "일반"
+  },
+  {
+    "code": "248",
+    "description": "중복 메시지(시리얼 번호)",
+    "category": "일반"
+  },
+  {
+    "code": "249",
+    "description": "순간 전송량 제한 초과",
+    "category": "일반"
+  },
+  {
+    "code": "250",
+    "description": "월 전송량 제한 초과",
+    "category": "일반"
+  },
+  {
+    "code": "251",
+    "description": "RESOURCE 제한에 의한 전송 제어",
+    "category": "일반"
+  },
+  {
+    "code": "252",
+    "description": "RESOURCE FULL",
+    "category": "일반"
+  },
+  {
+    "code": "253",
+    "description": "전송 실패(무선망), 단말기 일시정지",
+    "category": "일반"
+  },
+  {
+    "code": "254",
+    "description": "전송 실패(무선망 -> 단말기단), 가입자 VLR 없음",
+    "category": "일반"
+  },
+  {
+    "code": "258",
+    "description": "메시지 삭제됨",
+    "category": "일반"
+  },
+  {
+    "code": "259",
+    "description": "번호이동된 가입자",
+    "category": "일반"
+  },
+  {
+    "code": "260",
+    "description": "SKT로 번호이동된 가입자",
+    "category": "일반"
+  },
+  {
+    "code": "261",
+    "description": "LGT로 번호이동된 가입자",
+    "category": "일반"
+  },
+  {
+    "code": "262",
+    "description": "번호이동 DB 조회 불가",
+    "category": "일반"
+  },
+  {
+    "code": "263",
+    "description": "메시지 타입 오류",
+    "category": "일반"
+  },
+  {
+    "code": "264",
+    "description": "해외 로밍 실패",
+    "category": "일반"
+  },
+  {
+    "code": "265",
+    "description": "W2P 협약되지 않은 사업자",
+    "category": "일반"
+  },
+  {
+    "code": "266",
+    "description": "통합 한도 error",
+    "category": "일반"
+  },
+  {
+    "code": "267",
+    "description": "통합 한도 부족",
+    "category": "일반"
+  },
+  {
+    "code": "268",
+    "description": "CAS, MGW SYNC ERROR",
+    "category": "일반"
+  },
+  {
+    "code": "269",
+    "description": "MGW SYSTEM ERROR",
+    "category": "일반"
+  },
+  {
+    "code": "270",
+    "description": "G/W MGW 전송 ERRROR",
+    "category": "일반"
+  },
+  {
+    "code": "271",
+    "description": "CAS 연동 실패",
+    "category": "일반"
+  },
+  {
+    "code": "273",
+    "description": "과부하로 인한 일시적 발송 중단 코드",
+    "category": "일반"
+  },
+  {
+    "code": "272",
+    "description": "SKT 스팸 FTP로 요청된 스팸을 MRS에서 처리",
+    "category": "일반"
+  },
+  {
+    "code": "280",
+    "description": "지원하지 않는 버전",
+    "category": "일반"
+  },
+  {
+    "code": "281",
+    "description": "패킷 오류",
+    "category": "일반"
+  },
+  {
+    "code": "282",
+    "description": "유효기간 초과",
+    "category": "일반"
+  },
+  {
+    "code": "283",
+    "description": "잘못된 전화번호",
+    "category": "일반"
+  },
+  {
+    "code": "284",
+    "description": "기타 단말기 문제",
+    "category": "일반"
+  },
+  {
+    "code": "285",
+    "description": "망 에러",
+    "category": "일반"
+  },
+  {
+    "code": "286",
+    "description": "SMTS 포맷 에러",
+    "category": "일반"
+  },
+  {
+    "code": "287",
+    "description": "SMS 서비스 불가 단말기",
+    "category": "일반"
+  },
+  {
+    "code": "288",
+    "description": "착신측의 호불가 상태",
+    "category": "일반"
+  },
+  {
+    "code": "289",
+    "description": "SMC 운영자가 삭제한 메시지",
+    "category": "일반"
+  },
+  {
+    "code": "290",
+    "description": "스팸",
+    "category": "일반"
+  },
+  {
+    "code": "291",
+    "description": "스케쥴러와 ASE 사이의 메시지 큐 FULL",
+    "category": "일반"
+  },
+  {
+    "code": "292",
+    "description": "단말기 BUSY",
+    "category": "일반"
+  },
+  {
+    "code": "293",
+    "description": "단말기에서 착신 거절",
+    "category": "일반"
+  },
+  {
+    "code": "300",
+    "description": "복수선택",
+    "category": "일반"
+  },
+  {
+    "code": "301",
+    "description": "영구이동",
+    "category": "일반"
+  },
+  {
+    "code": "302",
+    "description": "임시이동",
+    "category": "일반"
+  },
+  {
+    "code": "305",
+    "description": "프록시 사용",
+    "category": "일반"
+  },
+  {
+    "code": "380",
+    "description": "대체 서비스",
+    "category": "일반"
+  },
+  {
+    "code": "400",
+    "description": "잘못된 요청",
+    "category": "일반"
+  },
+  {
+    "code": "401",
+    "description": "권한없음",
+    "category": "일반"
+  },
+  {
+    "code": "402",
+    "description": "요금 청구 됨 (향후 사용을 위해 예약)",
+    "category": "일반"
+  },
+  {
+    "code": "403",
+    "description": "금지(수신거부)",
+    "category": "일반"
+  },
+  {
+    "code": "404",
+    "description": "찾을 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "405",
+    "description": "메소드가 허용 되지않음",
+    "category": "일반"
+  },
+  {
+    "code": "406",
+    "description": "수락 할 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "407",
+    "description": "프록시 인증필요",
+    "category": "일반"
+  },
+  {
+    "code": "408",
+    "description": "요청시간 종료",
+    "category": "일반"
+  },
+  {
+    "code": "410",
+    "description": "사용자 없음",
+    "category": "일반"
+  },
+  {
+    "code": "413",
+    "description": "요청 엔티티가 너무 큼",
+    "category": "일반"
+  },
+  {
+    "code": "414",
+    "description": "요구하는 URI가 너무 김",
+    "category": "일반"
+  },
+  {
+    "code": "415",
+    "description": "지원되지 않은 매체유형",
+    "category": "일반"
+  },
+  {
+    "code": "416",
+    "description": "지원 되지않는 URI 체계",
+    "category": "일반"
+  },
+  {
+    "code": "420",
+    "description": "잘못된 확장자",
+    "category": "일반"
+  },
+  {
+    "code": "421",
+    "description": "확장자 필요",
+    "category": "일반"
+  },
+  {
+    "code": "423",
+    "description": "간격이 너무 짧음",
+    "category": "일반"
+  },
+  {
+    "code": "480",
+    "description": "일시적인 사용불능",
+    "category": "일반"
+  },
+  {
+    "code": "481",
+    "description": "통화 / 트랜젝션이 존재하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "482",
+    "description": "루프가 검출 됨",
+    "category": "일반"
+  },
+  {
+    "code": "483",
+    "description": "홉이 너무 많음",
+    "category": "일반"
+  },
+  {
+    "code": "484",
+    "description": "불완전한 주소",
+    "category": "일반"
+  },
+  {
+    "code": "485",
+    "description": "모호함",
+    "category": "일반"
+  },
+  {
+    "code": "486",
+    "description": "사용 중 (통화 중)",
+    "category": "일반"
+  },
+  {
+    "code": "487",
+    "description": "요청이 종료 됨 (전화를 받지 않음)",
+    "category": "일반"
+  },
+  {
+    "code": "488",
+    "description": "여기서 수락 할 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "491",
+    "description": "요청 보류 중",
+    "category": "일반"
+  },
+  {
+    "code": "493",
+    "description": "복호화 할수없음",
+    "category": "일반"
+  },
+  {
+    "code": "500",
+    "description": "서버내부 오류 (SIP서버 내부오류)",
+    "category": "일반"
+  },
+  {
+    "code": "501",
+    "description": "구현되지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "502",
+    "description": "잘못된 게이트웨이",
+    "category": "일반"
+  },
+  {
+    "code": "503",
+    "description": "SIP서비스를 사용 할 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "504",
+    "description": "SIP 서버 시간종료",
+    "category": "일반"
+  },
+  {
+    "code": "505",
+    "description": "지원되지 않은 버전",
+    "category": "일반"
+  },
+  {
+    "code": "513",
+    "description": "메시지가 너무 큼",
+    "category": "일반"
+  },
+  {
+    "code": "600",
+    "description": "모두 사용 중",
+    "category": "일반"
+  },
+  {
+    "code": "603",
+    "description": "SIP 서버 거부",
+    "category": "일반"
+  },
+  {
+    "code": "604",
+    "description": "어디에도 존재하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "606",
+    "description": "수락 할 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "1001",
+    "description": "세션 변경 요청시 요청 데이터가 없음",
+    "category": "일반"
+  },
+  {
+    "code": "1002",
+    "description": "세션 변경 요청 메시지 데이터 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1003",
+    "description": "세션 변경 요청 메시지 데이터 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1004",
+    "description": "세션 변경 요청 메시지 데이터 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1005",
+    "description": "세션 변경 요청 메시지 데이터 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1006",
+    "description": "지원하지 않는 세션 변경 요청",
+    "category": "일반"
+  },
+  {
+    "code": "1007",
+    "description": "세션이 존재하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "1008",
+    "description": "로그인 요청 메시지 읽기 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1009",
+    "description": "로그아웃 요청 메시지 읽기 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1010",
+    "description": "강제 로그아웃 요청 메시지 읽기 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1011",
+    "description": "SP 정보 변경 알림 메시지 읽기 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1012",
+    "description": "중복 접속",
+    "category": "일반"
+  },
+  {
+    "code": "1013",
+    "description": "로그인 되어 있지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "1014",
+    "description": "세션 처리 Agent 서버 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1015",
+    "description": "세션 처리 Agent 서버 오류 (레포트 처리)",
+    "category": "일반"
+  },
+  {
+    "code": "1016",
+    "description": "레포트 전달 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1017",
+    "description": "강제 로그아웃 실패",
+    "category": "일반"
+  },
+  {
+    "code": "1018",
+    "description": "DB 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1019",
+    "description": "서버 리소스 정보 읽기 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1020",
+    "description": "세션 처리 Agent 서버 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1021",
+    "description": "MAS 서버 오류",
+    "category": "일반"
+  },
+  {
+    "code": "1022",
+    "description": "SP 존재하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "1100",
+    "description": "메시지가 부분적으로 실행 되었으나 일부는 처리되지 못했음",
+    "category": "일반"
+  },
+  {
+    "code": "2000",
+    "description": "Client가 잘못된 응답을 보냄",
+    "category": "일반"
+  },
+  {
+    "code": "2001",
+    "description": "허용되지 않은 Command 실행에 의해 메시지가 거부 됨",
+    "category": "일반"
+  },
+  {
+    "code": "2002",
+    "description": "메시지에 있는 주소가 잘못된 형식이거나 유효하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "2003",
+    "description": "메시지에 있는 주소를 MMS Relay/Server가 찾을수 없음.",
+    "category": "일반"
+  },
+  {
+    "code": "2004",
+    "description": "SOAP 메시지에 포함된 MIME content의 요소나 크기, 타입이 불분명 함",
+    "category": "일반"
+  },
+  {
+    "code": "2005",
+    "description": "MMS Relay/Server가 이전에 전송된 메시지에 대한 message ID를 찾을 수 없거나, VASP로부터 받은 응답에서 message ID를 찾을 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "2006",
+    "description": "MMS Relay/Server가 메시지에 있는 LinkedID를 찾을 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "2007",
+    "description": "메시지가 규격에 맞지 않거나 부적합 함",
+    "category": "일반"
+  },
+  {
+    "code": "2008",
+    "description": "Media Conversion Error",
+    "category": "일반"
+  },
+  {
+    "code": "2100",
+    "description": "메시지 포맷 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2101",
+    "description": "올바른 컨텐츠가 아님",
+    "category": "일반"
+  },
+  {
+    "code": "2102",
+    "description": "SOAP 포맷 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2103",
+    "description": "미지원 단말",
+    "category": "일반"
+  },
+  {
+    "code": "2104",
+    "description": "컨텐츠 크기가 커서 처리 할 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "2105",
+    "description": "Message Class 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2106",
+    "description": "발신번호 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2107",
+    "description": "착신번호 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2108",
+    "description": "VASPID 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2109",
+    "description": "VASID 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2110",
+    "description": "Callback번호 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2111",
+    "description": "착신번호 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2112",
+    "description": "TIMESTAMP 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2113",
+    "description": "Subject 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2114",
+    "description": "Transaction ID 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2115",
+    "description": "Message ID 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2116",
+    "description": "MessageType 정보 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2150",
+    "description": "Mime 메시지 포맷 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2151",
+    "description": "Boundary 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2152",
+    "description": "Content-Type 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2154",
+    "description": "Content 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2155",
+    "description": "Content Encoding 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2160",
+    "description": "지원하지 않는 Content 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2161",
+    "description": "변환을 지원하지 않는 CONTENT 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2162",
+    "description": "CONTENT ID 오류",
+    "category": "일반"
+  },
+  {
+    "code": "2163",
+    "description": "TRANSACTION ID가 중복",
+    "category": "일반"
+  },
+  {
+    "code": "3000",
+    "description": "서버에서 올바른 요청에 대한 처리를 실패 함",
+    "category": "일반"
+  },
+  {
+    "code": "3001",
+    "description": "메시지 처리가 불가능 함",
+    "category": "일반"
+  },
+  {
+    "code": "3002",
+    "description": "서버에서 메시지를 받아들일 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "3003",
+    "description": "MMS Relay/Server가 multiple recipients를 지원하지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "3400",
+    "description": "LMSC 네트워크 문제(LMSC)",
+    "category": "일반"
+  },
+  {
+    "code": "3430",
+    "description": "메시지 포맷 오류(LMSC)",
+    "category": "일반"
+  },
+  {
+    "code": "3505",
+    "description": "필수 헤더 정보가 없을 경우",
+    "category": "일반"
+  },
+  {
+    "code": "4000",
+    "description": "요구된 서비스가 실행될 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "4001",
+    "description": "메시지의 Indentification header가 client를 확인할 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "4002",
+    "description": "메시지에 있는 MM7 version이 지원되지 않는 version",
+    "category": "일반"
+  },
+  {
+    "code": "4003",
+    "description": "메시지 헤더에 있는 Message Type이 서버에서 지원되지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "4004",
+    "description": "필수적인 FIELD가 빠져거나 MESSAGE-FORMAT이 맞지 않아 XML로 된 SOAP 메시지를 PARSING할 수 없음",
+    "category": "일반"
+  },
+  {
+    "code": "4005",
+    "description": "일반적인 서비스 에러 / MMS G/W 내부 처리 중 처리 실패",
+    "category": "일반"
+  },
+  {
+    "code": "4006",
+    "description": "사용자가 많아 일시적인 서비스 불가(TIME OUT)",
+    "category": "일반"
+  },
+  {
+    "code": "4007",
+    "description": "서비스를 요청한 클라이언트가 permission이 없는 경우 / 미지원 단말 / 전송 실패 / 패스워드 인증 실패로 전송제한",
+    "category": "일반"
+  },
+  {
+    "code": "4008",
+    "description": "통신사 서버 과부하 발생",
+    "category": "일반"
+  },
+  {
+    "code": "4030",
+    "description": "LGU+ 서버 과부하로 인한 일시적 메시지 수신 불가",
+    "category": "일반"
+  },
+  {
+    "code": "4100",
+    "description": "HUBSP 인증 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4101",
+    "description": "HUBSP 없음 오류 / 서비스 점검 중",
+    "category": "일반"
+  },
+  {
+    "code": "4102",
+    "description": "HUBSP 정지 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4103",
+    "description": "HUBSP 폐기 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4104",
+    "description": "HUBSP IP 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4105",
+    "description": "타 이통사 착신으로 인해 전송 차단",
+    "category": "일반"
+  },
+  {
+    "code": "4200",
+    "description": "Service Limit",
+    "category": "일반"
+  },
+  {
+    "code": "4201",
+    "description": "동보 전송 건수 초과 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4202",
+    "description": "허용 트래픽 초과 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4203",
+    "description": "허용 메시지 SIZE 초과 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4300",
+    "description": "가입자 인증 에러 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4301",
+    "description": "미 가입자 에러 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4302",
+    "description": "타사 가입자(SKT) 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4303",
+    "description": "타사 가입자(LGT) 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4304",
+    "description": "성인 인증 실패 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4305",
+    "description": "비가용폰 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4306",
+    "description": "동일 메시지에 중복 수신자 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4307",
+    "description": "일시정지 가입자 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4400",
+    "description": "스팸 처리 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4401",
+    "description": "제목 스팸 처리 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4402",
+    "description": "파일명 스팸 처리 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4403",
+    "description": "SUB CP 스팸 처리 오류",
+    "category": "일반"
+  },
+  {
+    "code": "4404",
+    "description": "수신자별 CALLBACK 스팸 처리 오류",
+    "category": "일반"
+  },
+  {
+    "code": "5000",
+    "description": "메시지 MIME 에러",
+    "category": "일반"
+  },
+  {
+    "code": "5001",
+    "description": "SOAP 메시지 FORMAT 에러",
+    "category": "일반"
+  },
+  {
+    "code": "5003",
+    "description": "CALLBACK 번호 FORMAT 에러",
+    "category": "일반"
+  },
+  {
+    "code": "5010",
+    "description": "소켓 READ 에러",
+    "category": "일반"
+  },
+  {
+    "code": "5011",
+    "description": "소켓 WRITE 에러",
+    "category": "일반"
+  },
+  {
+    "code": "5014",
+    "description": "소켓 생성 실패",
+    "category": "일반"
+  },
+  {
+    "code": "5015",
+    "description": "형식 오류 RESPONSE 수신",
+    "category": "일반"
+  },
+  {
+    "code": "5016",
+    "description": "RESPONSE 메시지를 읽지 못함",
+    "category": "일반"
+  },
+  {
+    "code": "5101",
+    "description": "HLR 착신전환 조회실패 (내부오류)",
+    "category": "일반"
+  },
+  {
+    "code": "5105",
+    "description": "HLR 착신전환 횟수 초과 오류코드",
+    "category": "일반"
+  },
+  {
+    "code": "5200",
+    "description": "LMSC 전송 시 알 수 없는 오류",
+    "category": "일반"
+  },
+  {
+    "code": "5300",
+    "description": "알 수 없는 단말기 문제로 수신 불가 오류",
+    "category": "일반"
+  },
+  {
+    "code": "5310",
+    "description": "전체 메모리가 수신할 용량보다 부족함",
+    "category": "일반"
+  },
+  {
+    "code": "5320",
+    "description": "수신할 메시지를 저장할 메모리가 부족함",
+    "category": "일반"
+  },
+  {
+    "code": "5330",
+    "description": "인출 시간 초과 오류",
+    "category": "일반"
+  },
+  {
+    "code": "5401",
+    "description": "인증 실패(AAA/JUICE)",
+    "category": "일반"
+  },
+  {
+    "code": "5403",
+    "description": "재 전송 실패",
+    "category": "일반"
+  },
+  {
+    "code": "5409",
+    "description": "수신자가 메시지 메니저 가입자로써 발신자 번호가 차단되어 더 이상 호 진행 안됨",
+    "category": "일반"
+  },
+  {
+    "code": "6000",
+    "description": "DB 연동 실패, QUERY 실패",
+    "category": "일반"
+  },
+  {
+    "code": "6010",
+    "description": "수신 메시지에 recipient CTN이 없음",
+    "category": "일반"
+  },
+  {
+    "code": "6011",
+    "description": "nCAS에 없는 CTN (LGT 고객 아님)",
+    "category": "일반"
+  },
+  {
+    "code": "6012",
+    "description": "번호이동 된 CTN",
+    "category": "일반"
+  },
+  {
+    "code": "6013",
+    "description": "서비스 이용이 정지된 CTN",
+    "category": "일반"
+  },
+  {
+    "code": "6014",
+    "description": "수신자가 착신거절 신청자임",
+    "category": "일반"
+  },
+  {
+    "code": "6021",
+    "description": "서비스 제공이 정지된 CP",
+    "category": "일반"
+  },
+  {
+    "code": "6022",
+    "description": "서비스 제공 기간 초과",
+    "category": "일반"
+  },
+  {
+    "code": "6023",
+    "description": "CP 상태가 INVALID로 등록되어 있음(서비스 불가)",
+    "category": "일반"
+  },
+  {
+    "code": "6024",
+    "description": "CP 보안 인증 실패",
+    "category": "일반"
+  },
+  {
+    "code": "6025",
+    "description": "CP 인증 PASSWORD 유효 기간 만료",
+    "category": "일반"
+  },
+  {
+    "code": "6030",
+    "description": "NAS에 있는 RAW DATA FILE을 찾지 못함",
+    "category": "일반"
+  },
+  {
+    "code": "6040",
+    "description": "NCAS 연동 실패",
+    "category": "일반"
+  },
+  {
+    "code": "6061",
+    "description": "CONTENTS FILENAME에 허용되지 않은 단어 포함",
+    "category": "일반"
+  },
+  {
+    "code": "6062",
+    "description": "SUBJECT에 허용되지 않은 단어 포함",
+    "category": "일반"
+  },
+  {
+    "code": "6072",
+    "description": "MMS 비가용 단말",
+    "category": "일반"
+  },
+  {
+    "code": "6102",
+    "description": "SKT로 번호이동 된 CTN",
+    "category": "일반"
+  },
+  {
+    "code": "6103",
+    "description": "수신번호 LGT 비가입",
+    "category": "일반"
+  },
+  {
+    "code": "7010",
+    "description": "BIZ2P CP로 등록되어 있지 않음",
+    "category": "일반"
+  },
+  {
+    "code": "7103",
+    "description": "1:1 메시지 전송 시 허용된 트래픽을 초과하여 전송하는 경우",
+    "category": "일반"
+  },
+  {
+    "code": "7400",
+    "description": "MMSC 네트워크 문제(MMSC)",
+    "category": "일반"
+  },
+  {
+    "code": "7505",
+    "description": "MMSC_NO_HEADER",
+    "category": "일반"
+  },
+  {
+    "code": "8001",
+    "description": "MMSC의 MM7 연동 프로세스 오동작",
+    "category": "일반"
+  },
+  {
+    "code": "8004",
+    "description": "VALIDATION FAIL",
+    "category": "일반"
+  },
+  {
+    "code": "8005",
+    "description": "XML VALIDATION FAIL",
+    "category": "일반"
+  },
+  {
+    "code": "8011",
+    "description": "기타 에러",
+    "category": "일반"
+  },
+  {
+    "code": "8012",
+    "description": "MMS 오류",
+    "category": "일반"
+  },
+  {
+    "code": "8200",
+    "description": "기타 에러",
+    "category": "일반"
+  },
+  {
+    "code": "8300",
+    "description": "알 수 없는 단말기 문제로 수신 불가 오류",
+    "category": "일반"
+  },
+  {
+    "code": "8310",
+    "description": "전체 메모리가 수신할 용량보다 부족함",
+    "category": "일반"
+  },
+  {
+    "code": "8320",
+    "description": "수신할 메시지를 저장할 메모리가 부족함",
+    "category": "일반"
+  },
+  {
+    "code": "8330",
+    "description": "Pull 인출 시간 초과 오류",
+    "category": "일반"
+  },
+  {
+    "code": "8401",
+    "description": "인증 실패",
+    "category": "일반"
+  },
+  {
+    "code": "8403",
+    "description": "MAX 재전송 실패",
+    "category": "일반"
+  },
+  {
+    "code": "8408",
+    "description": "수신자가 메시지 메니저 가입자로써 발신자 번호가 차단되어 더 이상 호 진행 안됨",
+    "category": "일반"
+  },
+  {
+    "code": "9000",
+    "description": "데이터망 인증 실패",
+    "category": "일반"
+  },
+  {
+    "code": "9001",
+    "description": "데이터망 전송 실패",
+    "category": "일반"
+  },
+  {
+    "code": "9999",
+    "description": "알 수 없는 에러",
+    "category": "일반"
+  },
+  {
+    "code": "10000",
+    "description": "성공",
+    "category": "RCS"
+  },
+  {
+    "code": "70001",
+    "description": "클라이언트ID 정보를 찾을 수 없음",
+    "category": "RCS"
+  },
+  {
+    "code": "70002",
+    "description": "허용된 IP가 아님",
+    "category": "RCS"
+  },
+  {
+    "code": "70003",
+    "description": "잘못된 패스워드",
+    "category": "RCS"
+  },
+  {
+    "code": "70004",
+    "description": "토큰 생성 실패",
+    "category": "RCS"
+  },
+  {
+    "code": "70005",
+    "description": "refresh 토큰 생성 실패",
+    "category": "RCS"
+  },
+  {
+    "code": "70006",
+    "description": "G/W 연동 정보없음",
+    "category": "RCS"
+  },
+  {
+    "code": "70007",
+    "description": "유효하지 않은 Token",
+    "category": "RCS"
+  },
+  {
+    "code": "70008",
+    "description": "Token 만료",
+    "category": "RCS"
+  },
+  {
+    "code": "70009",
+    "description": "accessUrl 권한 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "70010",
+    "description": "Authorization 헤더 값 누락(Bearer)",
+    "category": "RCS"
+  },
+  {
+    "code": "70011",
+    "description": "잘못된 url",
+    "category": "RCS"
+  },
+  {
+    "code": "71001",
+    "description": "빌링ID가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71002",
+    "description": "수신번호가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71003",
+    "description": "회신번호가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71004",
+    "description": "브랜드ID가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71005",
+    "description": "messagebaseId가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71006",
+    "description": "agency_id가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71007",
+    "description": "msg가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71008",
+    "description": "fb_yn이 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71009",
+    "description": "fb_type이 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71010",
+    "description": "fb_msg가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71011",
+    "description": "fb_title이 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71012",
+    "description": "cli_key가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71013",
+    "description": "rpt_key가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71014",
+    "description": "rslt가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71015",
+    "description": "productCode가 없거나 형식에 맞지 않음(uplus 대행사 아이디가 가 아닌 경우)",
+    "category": "RCS"
+  },
+  {
+    "code": "71101",
+    "description": "클라이언트ID 정보를 찾을 수 없음",
+    "category": "RCS"
+  },
+  {
+    "code": "71102",
+    "description": "일 발송 제한 건수 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "71103",
+    "description": "월 발송 제한 건수 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "71104",
+    "description": "야간 발송 제한 건수 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "71105",
+    "description": "브랜드 정보를 찾을 수 없거나 사용 할 수 없는 상태",
+    "category": "RCS"
+  },
+  {
+    "code": "71106",
+    "description": "messagebaseId 정보를 찾을 수 없거나 사용 할 수 없는 상태",
+    "category": "RCS"
+  },
+  {
+    "code": "71107",
+    "description": "callback 정보를 찾을 수 없거나 사용 할 수 없는 상태",
+    "category": "RCS"
+  },
+  {
+    "code": "71108",
+    "description": "footer값이 누락 되었습니다. (header가 1 인데, footer가 없음)",
+    "category": "RCS"
+  },
+  {
+    "code": "71109",
+    "description": "header가 존재하지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71111",
+    "description": "잘못된 header 정보(header 0 or 1)",
+    "category": "RCS"
+  },
+  {
+    "code": "71112",
+    "description": "메시지 body 사이즈 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "71113",
+    "description": "메시지 중복",
+    "category": "RCS"
+  },
+  {
+    "code": "71114",
+    "description": "msg_body가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "71201",
+    "description": "RCS 이통사 발송실패(모든 이통사 발송요청)",
+    "category": "RCS"
+  },
+  {
+    "code": "71202",
+    "description": "080 ARS Reject",
+    "category": "RCS"
+  },
+  {
+    "code": "71203",
+    "description": "080 ARS Reject(callback 전체)",
+    "category": "RCS"
+  },
+  {
+    "code": "71204",
+    "description": "스팸",
+    "category": "RCS"
+  },
+  {
+    "code": "71205",
+    "description": "이통사 발송시간 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "71206",
+    "description": "이통사 발송 실패",
+    "category": "RCS"
+  },
+  {
+    "code": "71207",
+    "description": "RCS 서비스 미오픈",
+    "category": "RCS"
+  },
+  {
+    "code": "71208",
+    "description": "챗봇 메시지 발송 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "71209",
+    "description": "이통사 발송응답 대기시간 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "71210",
+    "description": "전송시간 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "72001",
+    "description": "최대 파일사이즈 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "72002",
+    "description": "attachId가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "72003",
+    "description": "파일 개수 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "72101",
+    "description": "attachId 중복 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "72102",
+    "description": "미지원 파일",
+    "category": "RCS"
+  },
+  {
+    "code": "72103",
+    "description": "이통사 첨부파일 등록실패",
+    "category": "RCS"
+  },
+  {
+    "code": "72104",
+    "description": "이통사 이미지 발송실패",
+    "category": "RCS"
+  },
+  {
+    "code": "73001",
+    "description": "chat_key가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "73002",
+    "description": "chat_id가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "73003",
+    "description": "msg가 없거나 형식에 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "73101",
+    "description": "chabot 정보를 찾을 수 없음",
+    "category": "RCS"
+  },
+  {
+    "code": "76002",
+    "description": "Invalid Webhook Message",
+    "category": "RCS"
+  },
+  {
+    "code": "76005",
+    "description": "Webhook CDR Log Writing Failure",
+    "category": "RCS"
+  },
+  {
+    "code": "76998",
+    "description": "MaaP FE 기타 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "76999",
+    "description": "MaaP FE 미등록 에러 코드",
+    "category": "RCS"
+  },
+  {
+    "code": "79000",
+    "description": "CPS 초과, 재시도 필요",
+    "category": "RCS"
+  },
+  {
+    "code": "79997",
+    "description": "Fallback 기타 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "79998",
+    "description": "기타 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "79999",
+    "description": "시스템 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "83001",
+    "description": "메시지 중복",
+    "category": "RCS"
+  },
+  {
+    "code": "83002",
+    "description": "중복된 키 접수 차단",
+    "category": "RCS"
+  },
+  {
+    "code": "83003",
+    "description": "빌링ID 포멧 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "83004",
+    "description": "메시지 형식 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "83005",
+    "description": "잘못된 번호",
+    "category": "RCS"
+  },
+  {
+    "code": "83006",
+    "description": "잘못된 컨텐츠",
+    "category": "RCS"
+  },
+  {
+    "code": "83007",
+    "description": "전원 꺼짐",
+    "category": "RCS"
+  },
+  {
+    "code": "83008",
+    "description": "음영 지역",
+    "category": "RCS"
+  },
+  {
+    "code": "83009",
+    "description": "단말기 메시지 저장개수 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "83010",
+    "description": "컨텐츠 사이즈 및 개수 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "83011",
+    "description": "전송시간 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "83012",
+    "description": "무선망 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "83013",
+    "description": "CallbackURL 사용자 아님",
+    "category": "RCS"
+  },
+  {
+    "code": "83014",
+    "description": "메시지 중복 발송",
+    "category": "RCS"
+  },
+  {
+    "code": "83015",
+    "description": "수신거부",
+    "category": "RCS"
+  },
+  {
+    "code": "83016",
+    "description": "스팸",
+    "category": "RCS"
+  },
+  {
+    "code": "83017",
+    "description": "사전 미등록 발신번호 사용",
+    "category": "RCS"
+  },
+  {
+    "code": "83018",
+    "description": "전화번호 세칙 미준수 발신번호 사용",
+    "category": "RCS"
+  },
+  {
+    "code": "83019",
+    "description": "발신번호 변작으로 등록된 발신번호 사용",
+    "category": "RCS"
+  },
+  {
+    "code": "83020",
+    "description": "번호도용문자차단서비스에 가입된 발신번호 사용",
+    "category": "RCS"
+  },
+  {
+    "code": "83021",
+    "description": "포맷 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "83022",
+    "description": "기업형 MMS 미지원 단말기",
+    "category": "RCS"
+  },
+  {
+    "code": "83023",
+    "description": "단말기 일시 서비스 정지",
+    "category": "RCS"
+  },
+  {
+    "code": "83024",
+    "description": "통신사 내부 실패(무선망단)",
+    "category": "RCS"
+  },
+  {
+    "code": "83025",
+    "description": "서비스의 일시적인 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "83026",
+    "description": "국제 MMS 발송 권한이 없음",
+    "category": "RCS"
+  },
+  {
+    "code": "83027",
+    "description": "번호이동 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "83028",
+    "description": "이통사 내부 시스템 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "83998",
+    "description": "기타 에러",
+    "category": "RCS"
+  },
+  {
+    "code": "83999",
+    "description": "G/W 내부 실패",
+    "category": "RCS"
+  },
+  {
+    "code": "90001",
+    "description": "메시지 Key 없음",
+    "category": "RCS"
+  },
+  {
+    "code": "90002",
+    "description": "발송 시간 초과",
+    "category": "RCS"
+  },
+  {
+    "code": "90003",
+    "description": "수신번호 오류",
+    "category": "RCS"
+  },
+  {
+    "code": "90004",
+    "description": "RCS Object 필드 Json 포맷 오류 (올바른 Json String이 아님)",
+    "category": "RCS"
+  },
+  {
+    "code": "90005",
+    "description": "버튼 개수 포맷 오류 (숫자가 아님)",
+    "category": "RCS"
+  },
+  {
+    "code": "90006",
+    "description": "버튼 Json 포맷 오류 (올바른 Json string이 아님)",
+    "category": "RCS"
+  },
+  {
+    "code": "90007",
+    "description": "Fallback Y 이지만 Fallback 메시지가 없음",
+    "category": "RCS"
+  },
+  {
+    "code": "90008",
+    "description": "Fallback Y 이지만 Fallback 타입이 없음",
+    "category": "RCS"
+  },
+  {
+    "code": "90009",
+    "description": "중복 메시지",
+    "category": "RCS"
+  },
+  {
+    "code": "90010",
+    "description": "잘못된 파일(이미지 등록 요청 불가)",
+    "category": "RCS"
+  },
+  {
+    "code": "90011",
+    "description": "실제 이미지 등록 개수와 DB의 group count가 맞지 않음",
+    "category": "RCS"
+  },
+  {
+    "code": "90012",
+    "description": "발송 타임아웃(발송 요청 이후 72시간 초과)",
+    "category": "RCS"
+  },
+  {
+    "code": "0000",
+    "description": "발송 성공",
+    "category": "알림톡"
+  },
+  {
+    "code": "999",
+    "description": "Agent가 발송서버로 접속할 수 없는 경우 혹은 발송서버로 접속이 지연되는 경우 (방화벽 차단, 연결 지연 등)",
+    "category": "알림톡"
+  },
+  {
+    "code": "1001",
+    "description": "Request Body가 Json형식이 아님",
+    "category": "알림톡"
+  },
+  {
+    "code": "1002",
+    "description": "허브 파트너 키가 유효하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "1003",
+    "description": "발신 프로필 키가 유효하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "1004",
+    "description": "Request Body(Json)에서 name을 찾을 수 없음",
+    "category": "알림톡"
+  },
+  {
+    "code": "1006",
+    "description": "삭제된 발신프로필.",
+    "category": "알림톡"
+  },
+  {
+    "code": "1007",
+    "description": "차단 상태의 발신프로필.",
+    "category": "알림톡"
+  },
+  {
+    "code": "1011",
+    "description": "계약정보를 찾을 수 없음.",
+    "category": "알림톡"
+  },
+  {
+    "code": "1012",
+    "description": "잘못된 형식의 유저키 요청",
+    "category": "알림톡"
+  },
+  {
+    "code": "1013",
+    "description": "유효하지 않은 app연결",
+    "category": "알림톡"
+  },
+  {
+    "code": "1014",
+    "description": "유효하지 않은 사업자번호",
+    "category": "알림톡"
+  },
+  {
+    "code": "1015",
+    "description": "유효하지 않은 app user id 요청",
+    "category": "알림톡"
+  },
+  {
+    "code": "1016",
+    "description": "사업자등록번호 불일치",
+    "category": "알림톡"
+  },
+  {
+    "code": "1020",
+    "description": "전화번호 or app user id가 유효하지 않거나 미입력 요청",
+    "category": "알림톡"
+  },
+  {
+    "code": "1021",
+    "description": "차단 상태의 카카오톡 채널",
+    "category": "알림톡"
+  },
+  {
+    "code": "1022",
+    "description": "닫힘 상태의 카카오톡 채널",
+    "category": "알림톡"
+  },
+  {
+    "code": "1023",
+    "description": "삭제된 카카오톡 채널",
+    "category": "알림톡"
+  },
+  {
+    "code": "1024",
+    "description": "삭제대기 상태의 카카오톡",
+    "category": "알림톡"
+  },
+  {
+    "code": "1025",
+    "description": "메시지차단 상태의 카카오톡",
+    "category": "알림톡"
+  },
+  {
+    "code": "1026",
+    "description": "해당 message_type에서 사용할 수 없는 response _method로 요청(이미지알림톡(AI)는 realtime으로 발송 불가)",
+    "category": "알림톡"
+  },
+  {
+    "code": "1027",
+    "description": "채널 메시지 제재 상태로 인한 메시지 발송 실패",
+    "category": "알림톡"
+  },
+  {
+    "code": "1030",
+    "description": "잘못된 파라미터 요청",
+    "category": "알림톡"
+  },
+  {
+    "code": "2005",
+    "description": "내부 시스템 오류로 이미지 정보를 읽어오는데 실패함",
+    "category": "알림톡"
+  },
+  {
+    "code": "2006",
+    "description": "시리얼넘버 형식 불일치",
+    "category": "알림톡"
+  },
+  {
+    "code": "3000",
+    "description": "예기치 않은 오류 발생",
+    "category": "알림톡"
+  },
+  {
+    "code": "3005",
+    "description": "메시지를 발송했으나 10초 이내에 고객 단말기로부터 ACK 수신을 받지못한 경우 (성공불확실) - 서버에는 암호화 되어 보관되며 3일 이내 수신 가능(카카오측 내부 운영방침)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3006",
+    "description": "내부 시스템 오류로 메시지 전송 실패",
+    "category": "알림톡"
+  },
+  {
+    "code": "3008",
+    "description": "전화번호 오류",
+    "category": "알림톡"
+  },
+  {
+    "code": "3010",
+    "description": "Json 파싱 오류",
+    "category": "알림톡"
+  },
+  {
+    "code": "3012",
+    "description": "\"메시지 일련번호가 중복됨",
+    "category": "알림톡"
+  },
+  {
+    "code": "3013",
+    "description": "메시지가 비어 있음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3014",
+    "description": "메시지 길이 제한 오류 (템플릿별 제한 길이 또는 1000자 초과)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3018",
+    "description": "메시지를 전송할 수 없음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3016",
+    "description": "메시지 내용이 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3015",
+    "description": "템플릿을 찾을 수 없음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3019",
+    "description": "톡 유저가 아님 (2025-01-15 적용)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3020",
+    "description": "알림톡 수신 차단 (2025-01-15 적용)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3021",
+    "description": "카카오톡 최소 버전 미지원 (2025-01-15 적용)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3025",
+    "description": "변수 글자수 제한 초과",
+    "category": "알림톡"
+  },
+  {
+    "code": "3026",
+    "description": "챗봇 전환 버튼 extra, event 글자수 제한 초과",
+    "category": "알림톡"
+  },
+  {
+    "code": "3027",
+    "description": "메시지 버튼/바로연결이 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3028",
+    "description": "메시지 강조 표기 타이틀이 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3029",
+    "description": "메시지 강조 표기 타이틀 길이 제한 초과 (50자)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3030",
+    "description": "메시지 타입과 템플릿 강조유형이 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3031",
+    "description": "헤더가 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3032",
+    "description": "헤더 길이 제한 초과(16자)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3033",
+    "description": "아이템 하이라이트가 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3034",
+    "description": "아이템 하이라이트 타이틀 길이 제한 초과(이미지 없는 경우 30자, 이미지 있는 경우 21자)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3035",
+    "description": "아이템 하이라이트 디스크립션 길이 제한 초과(이미지 없는 경우 19자, 이미지 있는 경우 13자)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3036",
+    "description": "아이템 리스트가 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3037",
+    "description": "아이템 리스트의 아이템의 디스크립션 길이 제한 초과(23자)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3038",
+    "description": "아이템 요약정보가 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "3039",
+    "description": "아이템 요약정보 디스크립션 길이 제한 초과(14자)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3040",
+    "description": "아이템 요약정보의 디스크립션에 허용되지 않은 문자 포함(통화기호/코드, 숫자, 콤마, 소수점, 공백을 제외한 문자 포함)",
+    "category": "알림톡"
+  },
+  {
+    "code": "3042",
+    "description": "대표링크가 템플릿과 일치하지 않음",
+    "category": "알림톡"
+  },
+  {
+    "code": "4000",
+    "description": "메시지 전송 결과를 찾을 수 없음",
+    "category": "알림톡"
+  },
+  {
+    "code": "9998",
+    "description": "시스템에 문제가 발생하여 담당자가 확인하고 있는 경우",
+    "category": "알림톡"
+  },
+  {
+    "code": "9999",
+    "description": "시스템에 문제가 발생하여 담당자가 확인하고 있는 경우",
+    "category": "알림톡"
+  },
+  {
+    "code": "777",
+    "description": "전문양식 불일치",
+    "category": "알림톡"
+  },
+  {
+    "code": "888",
+    "description": "카카오톡 서버로부터 정상적인 응답 혹은 발송 결과 응답을 받지 못한 경우, Agent가 발송서버로 접속을 못한 경우 등등",
+    "category": "알림톡"
+  },
+  {
+    "code": "900",
+    "description": "알수 없는 고객사 ID",
+    "category": "알림톡"
+  },
+  {
+    "code": "901",
+    "description": "사용이 불가능한 고객사",
+    "category": "알림톡"
+  },
+  {
+    "code": "902",
+    "description": "사용이 불가능한 채널 요청",
+    "category": "알림톡"
+  },
+  {
+    "code": "903",
+    "description": "요청 차단 고객사",
+    "category": "알림톡"
+  },
+  {
+    "code": "904",
+    "description": "고객사 KEY 불일치",
+    "category": "알림톡"
+  },
+  {
+    "code": "905",
+    "description": "허용되지 않은 IP",
+    "category": "알림톡"
+  },
+  {
+    "code": "906",
+    "description": "요청 uri 오류",
+    "category": "알림톡"
+  },
+  {
+    "code": "907",
+    "description": "발송요청 건수 초과",
+    "category": "알림톡"
+  },
+  {
+    "code": "908",
+    "description": "지원하지 않는 채널",
+    "category": "알림톡"
+  },
+  {
+    "code": "911",
+    "description": "일 발송요청 건수 초과",
+    "category": "알림톡"
+  },
+  {
+    "code": "912",
+    "description": "월 발송요청 건수 초과",
+    "category": "알림톡"
+  }
+]
