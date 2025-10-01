@@ -1,0 +1,998 @@
+[
+  {
+    "id": "search_058",
+    "query": "912",
+    "search_type": "integrated",
+    "result_count": 4,
+    "timestamp": "2025-10-01T09:33:15.981877",
+    "date": "2025-10-01",
+    "time": "09:33:15",
+    "results_preview": [
+      {
+        "faq_count": 3,
+        "rag_count": 1,
+        "faq_preview": "월 발송요청 건수가 초과되었어요...",
+        "rag_preview": "912: 월 발송요청 건수 초과..."
+      }
+    ]
+  },
+  {
+    "id": "search_057",
+    "query": "83998 ",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:35:17.660197",
+    "date": "2025-09-30",
+    "time": "17:35:17",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "83998: 기타 에러..."
+      }
+    ]
+  },
+  {
+    "id": "search_056",
+    "query": "기타 에러",
+    "search_type": "integrated",
+    "result_count": 4,
+    "timestamp": "2025-09-30T17:35:08.805143",
+    "date": "2025-09-30",
+    "time": "17:35:08",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 4,
+        "faq_preview": "",
+        "rag_preview": "83998: 기타 에러..."
+      }
+    ]
+  },
+  {
+    "id": "search_055",
+    "query": "8200",
+    "search_type": "integrated",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:35:03.826597",
+    "date": "2025-09-30",
+    "time": "17:35:03",
+    "results_preview": [
+      {
+        "faq_count": 1,
+        "rag_count": 1,
+        "faq_preview": "동보 처리 개수가 초과되었어요...",
+        "rag_preview": "8200: 기타 에러..."
+      }
+    ]
+  },
+  {
+    "id": "search_054",
+    "query": "90012",
+    "search_type": "integrated",
+    "result_count": 3,
+    "timestamp": "2025-09-30T17:34:29.486015",
+    "date": "2025-09-30",
+    "time": "17:34:29",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 1,
+        "faq_preview": "SMS 전송이 실패해요...",
+        "rag_preview": "90012: 발송 타임아웃(발송 요청 이후 72시간 초과)..."
+      }
+    ]
+  },
+  {
+    "id": "search_053",
+    "query": "90012",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:34:06.585653",
+    "date": "2025-09-30",
+    "time": "17:34:06",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 4,
+        "faq_preview": "SMS 전송이 실패해요...",
+        "rag_preview": "90012: 발송 타임아웃(발송 요청 이후 72시간 초과)..."
+      }
+    ]
+  },
+  {
+    "id": "search_052",
+    "query": "90012",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:32:38.957881",
+    "date": "2025-09-30",
+    "time": "17:32:38",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 4,
+        "faq_preview": "SMS 전송이 실패해요...",
+        "rag_preview": "90012: 발송 타임아웃(발송 요청 이후 72시간 초과)..."
+      }
+    ]
+  },
+  {
+    "id": "search_051",
+    "query": "미지원 단말기",
+    "search_type": "integrated",
+    "result_count": 10,
+    "timestamp": "2025-09-30T17:31:58.065936",
+    "date": "2025-09-30",
+    "time": "17:31:58",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 5,
+        "faq_preview": "단말기 전원이 꺼져있어요...",
+        "rag_preview": "83022: 기업형 MMS 미지원 단말기..."
+      }
+    ]
+  },
+  {
+    "id": "search_050",
+    "query": "전송 실패",
+    "search_type": "integrated",
+    "result_count": 10,
+    "timestamp": "2025-09-30T17:31:08.053924",
+    "date": "2025-09-30",
+    "time": "17:31:08",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 5,
+        "faq_preview": "SMS 전송이 실패해요...",
+        "rag_preview": "5403: 재 전송 실패..."
+      }
+    ]
+  },
+  {
+    "id": "search_049",
+    "query": "메시지 전송이 안돼요",
+    "search_type": "faq",
+    "result_count": 10,
+    "timestamp": "2025-09-30T17:30:50.535682",
+    "date": "2025-09-30",
+    "time": "17:30:50",
+    "results_preview": [
+      {
+        "question": "메시지 전송이 안돼요",
+        "category": "일반"
+      },
+      {
+        "question": "알림톡 발송이 성공했어요",
+        "category": "알림톡"
+      },
+      {
+        "question": "전송이 성공했어요 (SMS/LMS)",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_048",
+    "query": "메시지 전송이 안돼요",
+    "search_type": "integrated",
+    "result_count": 10,
+    "timestamp": "2025-09-30T17:30:37.360073",
+    "date": "2025-09-30",
+    "time": "17:30:37",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 5,
+        "faq_preview": "메시지 전송이 안돼요...",
+        "rag_preview": "3012: \"메시지 일련번호가 중복됨..."
+      }
+    ]
+  },
+  {
+    "id": "search_047",
+    "query": "전송불가능",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:29:57.140322",
+    "date": "2025-09-30",
+    "time": "17:29:57",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 1,
+        "faq_preview": "이통사 발송응답 대기시간이 초과되었어요...",
+        "rag_preview": "902: 사용이 불가능한 채널 요청..."
+      }
+    ]
+  },
+  {
+    "id": "search_046",
+    "query": "전송 실패",
+    "search_type": "integrated",
+    "result_count": 10,
+    "timestamp": "2025-09-30T17:29:54.067765",
+    "date": "2025-09-30",
+    "time": "17:29:54",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 5,
+        "faq_preview": "데이터베이스 연동 실패가 발생했어요...",
+        "rag_preview": "5403: 재 전송 실패..."
+      }
+    ]
+  },
+  {
+    "id": "search_045",
+    "query": "전송이 안돼요",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:29:48.698583",
+    "date": "2025-09-30",
+    "time": "17:29:48",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 1,
+        "faq_preview": "전송이 성공했어요 (SMS/LMS)...",
+        "rag_preview": "113: 중복메시지 발송 금지기능..."
+      }
+    ]
+  },
+  {
+    "id": "search_044",
+    "query": "메시지 전송이 안돼요",
+    "search_type": "integrated",
+    "result_count": 10,
+    "timestamp": "2025-09-30T17:28:41.030727",
+    "date": "2025-09-30",
+    "time": "17:28:41",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 5,
+        "faq_preview": "전송이 성공했어요 (SMS/LMS)...",
+        "rag_preview": "3012: \"메시지 일련번호가 중복됨..."
+      }
+    ]
+  },
+  {
+    "id": "search_043",
+    "query": "스팸 차단",
+    "search_type": "integrated",
+    "result_count": 8,
+    "timestamp": "2025-09-30T17:28:29.260753",
+    "date": "2025-09-30",
+    "time": "17:28:29",
+    "results_preview": [
+      {
+        "faq_count": 3,
+        "rag_count": 5,
+        "faq_preview": "스팸으로 차단되었어요...",
+        "rag_preview": "247: 스팸 부가서비스 가입자(스팸 차단)..."
+      }
+    ]
+  },
+  {
+    "id": "search_042",
+    "query": "스팸으로 차단됐어",
+    "search_type": "integrated",
+    "result_count": 4,
+    "timestamp": "2025-09-30T17:28:19.786539",
+    "date": "2025-09-30",
+    "time": "17:28:19",
+    "results_preview": [
+      {
+        "faq_count": 3,
+        "rag_count": 1,
+        "faq_preview": "스팸으로 차단되었어요...",
+        "rag_preview": "113: 중복메시지 발송 금지기능..."
+      }
+    ]
+  },
+  {
+    "id": "search_041",
+    "query": "ㅋㅋ",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:28:12.142133",
+    "date": "2025-09-30",
+    "time": "17:28:12",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "83023: 단말기 일시 서비스 정지..."
+      }
+    ]
+  },
+  {
+    "id": "search_040",
+    "query": "안녕",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:27:31.210199",
+    "date": "2025-09-30",
+    "time": "17:27:31",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "83023: 단말기 일시 서비스 정지..."
+      }
+    ]
+  },
+  {
+    "id": "search_039",
+    "query": "안녕",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:27:25.005282",
+    "date": "2025-09-30",
+    "time": "17:27:25",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "83023: 단말기 일시 서비스 정지..."
+      }
+    ]
+  },
+  {
+    "id": "search_038",
+    "query": "Agent 내부 결과코드",
+    "search_type": "integrated",
+    "result_count": 9,
+    "timestamp": "2025-09-30T17:26:41.013378",
+    "date": "2025-09-30",
+    "time": "17:26:41",
+    "results_preview": [
+      {
+        "faq_count": 4,
+        "rag_count": 5,
+        "faq_preview": "전송이 성공했어요 (SMS/LMS)...",
+        "rag_preview": "90: 동보갯수초과 (Agent 내부)..."
+      }
+    ]
+  },
+  {
+    "id": "search_037",
+    "query": "안녕",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:26:13.877589",
+    "date": "2025-09-30",
+    "time": "17:26:13",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "83023: 단말기 일시 서비스 정지..."
+      }
+    ]
+  },
+  {
+    "id": "search_036",
+    "query": "안녕",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:25:54.989846",
+    "date": "2025-09-30",
+    "time": "17:25:54",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "83023: 단말기 일시 서비스 정지..."
+      }
+    ]
+  },
+  {
+    "id": "search_035",
+    "query": "대기중",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:23:54.316715",
+    "date": "2025-09-30",
+    "time": "17:23:54",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 1,
+        "faq_preview": "전달 대기중이에요...",
+        "rag_preview": "-2: 전달 대기중..."
+      }
+    ]
+  },
+  {
+    "id": "search_034",
+    "query": "전송 대기",
+    "search_type": "integrated",
+    "result_count": 9,
+    "timestamp": "2025-09-30T17:23:46.370733",
+    "date": "2025-09-30",
+    "time": "17:23:46",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 4,
+        "faq_preview": "전달 대기중이에요...",
+        "rag_preview": "233: 결과 수신 대기..."
+      }
+    ]
+  },
+  {
+    "id": "search_033",
+    "query": "전송실패",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:23:37.739385",
+    "date": "2025-09-30",
+    "time": "17:23:37",
+    "results_preview": [
+      {
+        "faq_count": 5,
+        "rag_count": 1,
+        "faq_preview": "데이터베이스 연동 실패가 발생했어요...",
+        "rag_preview": "225: ISMC(전송실패)..."
+      }
+    ]
+  },
+  {
+    "id": "search_032",
+    "query": "71002",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:22:07.656949",
+    "date": "2025-09-30",
+    "time": "17:22:07",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "71002: 수신번호가 없거나 형식에 맞지 않음..."
+      }
+    ]
+  },
+  {
+    "id": "search_031",
+    "query": "DB 오류",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:21:48.241650",
+    "date": "2025-09-30",
+    "time": "17:21:48",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 4,
+        "faq_preview": "DB 오류가 발생했어요...",
+        "rag_preview": "1018: DB 오류..."
+      }
+    ]
+  },
+  {
+    "id": "search_030",
+    "query": "1018",
+    "search_type": "integrated",
+    "result_count": 4,
+    "timestamp": "2025-09-30T17:21:37.787754",
+    "date": "2025-09-30",
+    "time": "17:21:37",
+    "results_preview": [
+      {
+        "faq_count": 3,
+        "rag_count": 1,
+        "faq_preview": "데이터베이스 연동 실패가 발생했어요...",
+        "rag_preview": "1018: DB 오류..."
+      }
+    ]
+  },
+  {
+    "id": "search_029",
+    "query": "트래픽",
+    "search_type": "integrated",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:21:20.495609",
+    "date": "2025-09-30",
+    "time": "17:21:20",
+    "results_preview": [
+      {
+        "faq_count": 1,
+        "rag_count": 1,
+        "faq_preview": "트래픽 초과 오류가 나와요...",
+        "rag_preview": "4202: 허용 트래픽 초과 오류..."
+      }
+    ]
+  },
+  {
+    "id": "search_028",
+    "query": "1",
+    "search_type": "integrated",
+    "result_count": 3,
+    "timestamp": "2025-09-30T17:21:08.392897",
+    "date": "2025-09-30",
+    "time": "17:21:08",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 3,
+        "faq_preview": "",
+        "rag_preview": "1: 시스템 장애..."
+      }
+    ]
+  },
+  {
+    "id": "search_027",
+    "query": "119",
+    "search_type": "integrated",
+    "result_count": 7,
+    "timestamp": "2025-09-30T17:21:04.937811",
+    "date": "2025-09-30",
+    "time": "17:21:04",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 5,
+        "faq_preview": "번호도용이나 피싱차단으로 전송이 막혔어요...",
+        "rag_preview": "201: 무응답..."
+      }
+    ]
+  },
+  {
+    "id": "search_026",
+    "query": "0119",
+    "search_type": "integrated",
+    "result_count": 7,
+    "timestamp": "2025-09-30T17:20:56.844760",
+    "date": "2025-09-30",
+    "time": "17:20:56",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 5,
+        "faq_preview": "번호도용이나 피싱차단으로 전송이 막혔어요...",
+        "rag_preview": "211: 기간만료..."
+      }
+    ]
+  },
+  {
+    "id": "search_025",
+    "query": "114",
+    "search_type": "integrated",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:15:44.837318",
+    "date": "2025-09-30",
+    "time": "17:15:44",
+    "results_preview": [
+      {
+        "faq_count": 1,
+        "rag_count": 1,
+        "faq_preview": "번호도용이나 피싱차단으로 전송이 막혔어요...",
+        "rag_preview": "114: 번호도용/변작방지 차단, 피싱차단..."
+      }
+    ]
+  },
+  {
+    "id": "search_024",
+    "query": "114",
+    "search_type": "faq",
+    "result_count": 0,
+    "timestamp": "2025-09-30T17:14:52.772286",
+    "date": "2025-09-30",
+    "time": "17:14:52",
+    "results_preview": []
+  },
+  {
+    "id": "search_023",
+    "query": "114",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:13:40.701167",
+    "date": "2025-09-30",
+    "time": "17:13:40",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "114: 번호도용/변작방지 차단, 피싱차단..."
+      }
+    ]
+  },
+  {
+    "id": "search_022",
+    "query": "인증실패",
+    "search_type": "faq",
+    "result_count": 3,
+    "timestamp": "2025-09-30T17:13:07.183763",
+    "date": "2025-09-30",
+    "time": "17:13:07",
+    "results_preview": [
+      {
+        "question": "인증이 실패해요",
+        "category": "일반"
+      },
+      {
+        "question": "RCS 메시지 전송이 성공했어요",
+        "category": "RCS"
+      },
+      {
+        "question": "데이터베이스 연동 실패가 발생했어요",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_021",
+    "query": "스팸     차단",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:13:00.623590",
+    "date": "2025-09-30",
+    "time": "17:13:00",
+    "results_preview": [
+      {
+        "question": "스팸으로 차단되었어요",
+        "category": "일반"
+      },
+      {
+        "question": "전송이 성공했어요 (SMS/LMS)",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_020",
+    "query": "스팸     차단",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:12:56.733751",
+    "date": "2025-09-30",
+    "time": "17:12:56",
+    "results_preview": [
+      {
+        "question": "스팸으로 차단되었어요",
+        "category": "일반"
+      },
+      {
+        "question": "전송이 성공했어요 (SMS/LMS)",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_019",
+    "query": "스팸 차단",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:12:54.815351",
+    "date": "2025-09-30",
+    "time": "17:12:54",
+    "results_preview": [
+      {
+        "question": "스팸으로 차단되었어요",
+        "category": "일반"
+      },
+      {
+        "question": "전송이 성공했어요 (SMS/LMS)",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_018",
+    "query": "스팸차단",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:12:54.014798",
+    "date": "2025-09-30",
+    "time": "17:12:54",
+    "results_preview": [
+      {
+        "question": "스팸으로 차단되었어요",
+        "category": "일반"
+      },
+      {
+        "question": "전송이 성공했어요 (SMS/LMS)",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_017",
+    "query": "스팸차단",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:12:52.713361",
+    "date": "2025-09-30",
+    "time": "17:12:52",
+    "results_preview": [
+      {
+        "question": "스팸으로 차단되었어요",
+        "category": "일반"
+      },
+      {
+        "question": "전송이 성공했어요 (SMS/LMS)",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_016",
+    "query": "트래픽 초과",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:12:50.712729",
+    "date": "2025-09-30",
+    "time": "17:12:50",
+    "results_preview": [
+      {
+        "question": "트래픽 초과 오류가 나와요",
+        "category": "일반"
+      },
+      {
+        "question": "일 발송요청 건수가 초과되었어요",
+        "category": "알림톡"
+      }
+    ]
+  },
+  {
+    "id": "search_015",
+    "query": "트래픽초과",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:12:48.111962",
+    "date": "2025-09-30",
+    "time": "17:12:48",
+    "results_preview": [
+      {
+        "question": "트래픽 초과 오류가 나와요",
+        "category": "일반"
+      },
+      {
+        "question": "일 발송요청 건수가 초과되었어요",
+        "category": "알림톡"
+      }
+    ]
+  },
+  {
+    "id": "search_014",
+    "query": "스팸차단",
+    "search_type": "integrated",
+    "result_count": 3,
+    "timestamp": "2025-09-30T17:12:36.071634",
+    "date": "2025-09-30",
+    "time": "17:12:36",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 1,
+        "faq_preview": "스팸으로 차단되었어요...",
+        "rag_preview": "103: 착신자 스팸..."
+      }
+    ]
+  },
+  {
+    "id": "search_013",
+    "query": "스팸 차단",
+    "search_type": "integrated",
+    "result_count": 7,
+    "timestamp": "2025-09-30T17:12:31.067293",
+    "date": "2025-09-30",
+    "time": "17:12:31",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 5,
+        "faq_preview": "스팸으로 차단되었어요...",
+        "rag_preview": "247: 스팸 부가서비스 가입자(스팸 차단)..."
+      }
+    ]
+  },
+  {
+    "id": "search_012",
+    "query": "스팸차단",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:12:15.567188",
+    "date": "2025-09-30",
+    "time": "17:12:15",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "103: 착신자 스팸..."
+      }
+    ]
+  },
+  {
+    "id": "search_011",
+    "query": "스팸차단",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:09:33.842374",
+    "date": "2025-09-30",
+    "time": "17:09:33",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "103: 착신자 스팸..."
+      }
+    ]
+  },
+  {
+    "id": "search_010",
+    "query": "스팸 차단",
+    "search_type": "integrated",
+    "result_count": 7,
+    "timestamp": "2025-09-30T17:09:24.148516",
+    "date": "2025-09-30",
+    "time": "17:09:24",
+    "results_preview": [
+      {
+        "faq_count": 2,
+        "rag_count": 5,
+        "faq_preview": "스팸으로 차단되었어요...",
+        "rag_preview": "247: 스팸 부가서비스 가입자(스팸 차단)..."
+      }
+    ]
+  },
+  {
+    "id": "search_009",
+    "query": "스팸 차단",
+    "search_type": "faq",
+    "result_count": 2,
+    "timestamp": "2025-09-30T17:09:13.635082",
+    "date": "2025-09-30",
+    "time": "17:09:13",
+    "results_preview": [
+      {
+        "question": "스팸으로 차단되었어요",
+        "category": "일반"
+      },
+      {
+        "question": "전송이 성공했어요 (SMS/LMS)",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_008",
+    "query": "스팸차단",
+    "search_type": "faq",
+    "result_count": 0,
+    "timestamp": "2025-09-30T17:09:11.008491",
+    "date": "2025-09-30",
+    "time": "17:09:11",
+    "results_preview": []
+  },
+  {
+    "id": "search_007",
+    "query": " 발신번호 스팸차단",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:08:57.341853",
+    "date": "2025-09-30",
+    "time": "17:08:57",
+    "results_preview": [
+      {
+        "faq_count": 1,
+        "rag_count": 5,
+        "faq_preview": "메시지 형식이 잘못되었어요...",
+        "rag_preview": "83019: 발신번호 변작으로 등록된 발신번호 사용..."
+      }
+    ]
+  },
+  {
+    "id": "search_006",
+    "query": " 발신번호 스팸차단",
+    "search_type": "faq",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:08:47.403401",
+    "date": "2025-09-30",
+    "time": "17:08:47",
+    "results_preview": [
+      {
+        "question": "메시지 형식이 잘못되었어요",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_005",
+    "query": "장애",
+    "search_type": "integrated",
+    "result_count": 3,
+    "timestamp": "2025-09-30T17:06:00.700507",
+    "date": "2025-09-30",
+    "time": "17:06:00",
+    "results_preview": [
+      {
+        "faq_count": 1,
+        "rag_count": 2,
+        "faq_preview": "시스템 장애가 발생했어요...",
+        "rag_preview": "1: 시스템 장애..."
+      }
+    ]
+  },
+  {
+    "id": "search_004",
+    "query": "장애",
+    "search_type": "faq",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:05:51.924441",
+    "date": "2025-09-30",
+    "time": "17:05:51",
+    "results_preview": [
+      {
+        "question": "시스템 장애가 발생했어요",
+        "category": "일반"
+      }
+    ]
+  },
+  {
+    "id": "search_003",
+    "query": "1019",
+    "search_type": "integrated",
+    "result_count": 1,
+    "timestamp": "2025-09-30T17:03:04.169535",
+    "date": "2025-09-30",
+    "time": "17:03:04",
+    "results_preview": [
+      {
+        "faq_count": 0,
+        "rag_count": 1,
+        "faq_preview": "",
+        "rag_preview": "1019: 서버 리소스 정보 읽기 오류..."
+      }
+    ]
+  },
+  {
+    "id": "search_002",
+    "query": "db 오류",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:02:26.684157",
+    "date": "2025-09-30",
+    "time": "17:02:26",
+    "results_preview": [
+      {
+        "faq_count": 3,
+        "rag_count": 3,
+        "faq_preview": "DB 오류가 발생했어요...",
+        "rag_preview": "1018: DB 오류..."
+      }
+    ]
+  },
+  {
+    "id": "search_001",
+    "query": "db 오류",
+    "search_type": "integrated",
+    "result_count": 6,
+    "timestamp": "2025-09-30T17:02:11.227946",
+    "date": "2025-09-30",
+    "time": "17:02:11",
+    "results_preview": [
+      {
+        "faq_count": 3,
+        "rag_count": 3,
+        "faq_preview": "DB 오류가 발생했어요...",
+        "rag_preview": "1018: DB 오류..."
+      }
+    ]
+  }
+]

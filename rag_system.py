@@ -46,9 +46,9 @@ class RAGSystem:
         # 쿼리 전처리
         processed_query = self._preprocess_query(query)
         
-        # 코드 추출
+        # 코드 추출 (음수 기호 포함)
         import re
-        code_match = re.search(r'(\d+)', processed_query)
+        code_match = re.search(r'(-?\d+)', processed_query)
         if not code_match:
             return {
                 'code': query,
@@ -89,9 +89,9 @@ class RAGSystem:
         
         # "결과코드 4007" 형태로 정규화
         if not query.startswith("결과코드"):
-            # 숫자가 포함된 경우 "결과코드" 추가
+            # 숫자가 포함된 경우 "결과코드" 추가 (음수 기호 포함)
             import re
-            if re.search(r'\d+', query):
+            if re.search(r'-?\d+', query):
                 query = f"결과코드 {query}"
         
         return query
